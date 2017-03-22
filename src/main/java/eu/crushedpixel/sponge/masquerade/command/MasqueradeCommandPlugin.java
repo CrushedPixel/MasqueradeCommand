@@ -210,6 +210,8 @@ public class MasqueradeCommandPlugin {
                             masquerade.setData(key, Byte.valueOf(value));
                         } else if (valueClazz == String.class) {
                             masquerade.setData(key, value);
+                        } else if (valueClazz == Text.class) {
+                            masquerade.setData(key, Text.of(value));
                         } else {
                             throw new CommandException(Text.of(String.format("Unknown value type for key %s: %s", keyName, valueClazz.getName())));
                         }
