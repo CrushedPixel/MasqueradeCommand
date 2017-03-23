@@ -33,7 +33,7 @@ Modifies the current masquerade's looks or behaviour by setting the value of a d
 `/mask option <key> <value>`
 
 ##### Examples
-* `/mask option sponge:is_ablaze true`
+* `/mask option sponge:is_aflame true`
 * `/mask option sponge:display_name Dinnerbone`
 
 All data keys applicable to the current masquerade can be retrieved using auto-complete when typing the command.
@@ -41,7 +41,7 @@ All data keys applicable to the current masquerade can be retrieved using auto-c
 #### Permissions
 To set a specific option, the permission `masquerade.mask.option.[key]` is required.  
 For example, to change whether the masquerade is burning, 
-you need the permission `masquerade.mask.option.sponge:is_ablaze`.
+you need the permission `masquerade.mask.option.sponge:is_aflame`.
 
 ### `/unmask`
 #### Description
